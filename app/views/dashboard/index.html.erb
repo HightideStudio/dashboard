@@ -1,8 +1,1 @@
-<% if flash[:notice] %>
-    <div class="notice"><%= flash[:notice] %></div>
-<% end %>
-<% if flash[:alert] %>
-    <div class="alert"><%= flash[:alert] %></div>
-<% end %>
-
 <%= link_to "Sign Out", destroy_user_session_path, method: :delete %>

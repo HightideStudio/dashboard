@@ -36,6 +36,8 @@ gem 'omniauth-twitch'
 # Use bootstrap
 gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
+# Use Font Awesome Icons
+gem "font-awesome-rails"
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'

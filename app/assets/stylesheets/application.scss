@@ -13,3 +13,21 @@
  */
 
  @import "bootstrap";
+ @import "font-awesome";
+
+$twitch-purple: rgb(100, 65, 165);
+
+ html, body, .login, .login .row {
+     height: 100%;
+ }
+
+.login {
+
+    .twitch-login {
+        background: $twitch-purple;
+
+        .twitch-logo {
+            margin-right: 20px;
+        }
+    }
+}
