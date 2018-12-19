@@ -1,0 +1,13 @@
+<div class="container-fluid login">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-4">
+      <%- if devise_mapping.omniauthable? %>
+        <%- resource_class.omniauth_providers.each do |provider| %>
+          <%= link_to omniauth_authorize_path(resource_name, provider), class: "btn btn-primary twitch-login btn-lg btn-block" do %>
+            <%= fa_icon "twitch", class: "twitch-logo" %><%= "Log In With #{OmniAuth::Utils.camelize(provider)}" %>
+          <% end %>
+        <% end -%>
+      <% end -%>
+    </div>
+  </div>
+</div>

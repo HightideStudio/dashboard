@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap";
+@import "font-awesome";
+
+@import "shared/mixins";
+
+$twitch-purple: rgb(100, 65, 165);
+
+ html, body, .login, .login .row {
+     height: 100%;
+ }
+
+.login {
+    background: darken($twitch-purple, 10);
+
+    .twitch-login {
+        background: $twitch-purple;
+        border-color: darken($twitch-purple, 15);
+        @include box-shadow(0, 5px, 3px, darken($twitch-purple, 15));
+
+        &:hover {
+            background: darken($twitch-purple, 2);
+        }
+
+        .twitch-logo {
+            margin-right: 20px;
+        }
+    }
+}

@@ -1,0 +1,2 @@
+Figaro.require_keys("TWITCH_CLIENT_ID", "TWITCH_CLIENT_SECRET",
+                    "POSTGRES_USERNAME", "POSTGRES_PASSWORD")
