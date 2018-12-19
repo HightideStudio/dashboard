@@ -27,7 +27,17 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Use Fiagro to manage environment variables
 gem 'figaro'
+# Use Devise for authentication
+gem 'devise'
+# Use omniauth to authenticate with twitch
+gem 'omniauth-twitch'
+# Use bootstrap
+gem 'bootstrap', '~> 4.0.0'
+gem 'jquery-rails'
+# Use Font Awesome Icons
+gem "font-awesome-rails"
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
