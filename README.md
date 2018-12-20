@@ -5,6 +5,14 @@ bundle install
 rails server
 ```
 
+# PostgreSQL on Windows
+
+Using the ubuntu terminal:
+
+```
+sudo apt-get install build-essential patch liblzma-dev libpq-dev
+```
+
 # Installing Redis
 
 Redis is needed for ActionCable. <br>
